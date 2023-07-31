@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2? family=Nunito&family=Nunito&display=swap");
+
+ *{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: "Nunito" sans-serif;
+    min-height: 100vh;
+    background-color:#333;   
+}
+
+
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:75px;
+    background-color: black;
+    padding: 0px 50px;
+    top: 0;
+    z-index:1;
+}
+
+.logo img{
+   background-image: blue;
+}
+.menu{
+    width: 65%;
+    display:flex;
+    justify-content: right;
+    list-style: none;
+}
+
+.menu li{
+    margin-left:20px ;
+}
+
+.menu li a{
+    font-size: 19px;
+    color:#fff;
+    text-decoration: none;
+    transition: 0.3 ease-in-out;
+}
+
+.menu li a:hover{
+    color:#ccc;
+
+}
+
+.search{
+    font-display: flex;
+    align-items:center ;
+    margin-right: 3rem;
+    
+}
+
+.search form{
+    display:flex;
+    margin:0;
+}
+
+.search input{
+    padding: 10px;
+    border:3p white;
+    background-color: black;
+    outline: none;
+    margin-right: 12px;
+    width: 16rem;
+    height:4rem ;
+    font-size: 16px; 
+    color: #fff;
+}
+
+.search input:hover{
+    border:1
+}
+
+.search button{
+    padding: 10px;
+    background-color:black;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    width: 3rem;
+    height: 4rem;
+}
+
+
+main{
+  text-align: center;
+  margin-left: 20rem;
+  display: inline;
+}
+
+.imgb{
+    margin-top: 4rem;
+    margin-left: 0rem;
+    float: left;
+    position: relative;
+} 
+
+h1{
+    color: white;
+    font-size: 65px;
+    margin-top: 20rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-forum {
+    background-color: #2567be;
+   margin-top: 25rem;
+    align-items: center;
+    width:100rem ;
+    padding-right: 50rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+h2{
+     margin-left: 60;
+     float: right;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    margin: 2rem;
+    float: right;
+    margin-top: 2rem;
+   color:  #2567be;
+   font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}
+
+.section-box {
+    display: flex;
+    width: 1000px;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.flexbox{
+    display: flex;
+    margin-left: 4rem;
+    width: 900px;
+    margin-top: 2rem;
+}
+
+.box1 {
+    height: 550px;
+    width: 500px;
+    background-color: black;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+.box2{
+    height: 550px;
+    width: 500px;
+    background-color: black;
+    margin-left: 3.5rem;
+    margin-top: 6rem;
+}
+.box3{
+    height: 550px;
+    width: 500px;
+    background-color: black;
+    margin-left: 3.5rem;
+    margin-top: 6rem;
+}
+
+.section-form-container body{
+    background-color: black;
+    width: 100%;
+    height: 100rem;
+}
+
+.container-form{
+    width: 87rem;
+    height: 69rem;
+    background-color: black;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    margin-right: -4rem;
+}
+
+h4{
+    color: #fff;
+    float: left;
+    margin-left: 8rem;
+    margin-top: 6rem;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   color: #fff;
+   font-size: 16px;
+   margin-top:16rem ;
+}
+
+  .form-container {
+    background-color:black;
+    padding: 20px;
+    width: 300px;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 18rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container label,
+  .form-container input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .imgbxx{
+    margin-top: 1rem;
+    float:left;
+  }
+
+
+    /*  input[type="text"]  */.input{
+        height: 3.5rem;
+        margin-top: 20rem; 
+        width: 40rem;
+        background-color: #000;
+    } 
+    
+    .button[type="submit"] ,button[value="Join"]{
+        height: 3.3rem;
+        width: 4rem;
+        margin-top: 30rem ;
+        color: #000;
+        font-size: 16px;
+    }
+
+    .button[type="submit"]:hover{
+        color: black;
+    }
+
+    footer{
+        color: #fff;
+        text-align: center;
+        margin-top: 10rem;
+        padding-bottom: 5rem;
+    }
+
+  /* input[type="text"]{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+    height: 3rem;
+    margin-left: 14rem;
+    width: 50rem;
+  } */
+  
